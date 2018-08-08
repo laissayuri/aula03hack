@@ -1,0 +1,71 @@
+-------------- EXERCÍCIO 1 --------------
+
+Pegue a pilha de baralho na mão.
+
+Enquanto houver cartas na sua mão, repita:
+    Olhe o numero da carta do topo da pilha na sua mão.
+    Se você ver o numero 3 e corações vermelhos na carta,
+        Fale "Encontrei" e termine a tarefa.
+    Enquanto você não ver o numero 3 e corações vermelhos na carta,
+        Coloque a carta na mesa e olhe o numero da carta do topo da pilha na sua mão novamente e
+        veja se tem o número 3 e corações vermelhos na carta.
+
+Se não houver mais nenhuma carta na sua mão,
+    Fale "Não Encontrei".
+
+
+------------------ CORREÇÃO -------------------
+
+ENQUANTO houver cartas na sua mão, REPITA:
+    - Separe a carta do topo do baralho;
+    - Olher no lado que tenha letras e numeros;
+    - SE houver na carta o numero 3 e um desenho de coração;
+        Responda ENCONTREI.
+        - FIM.
+    -SENÃO:
+        - Jogue a carta fora;
+
+Reponda NÃO ENCONTREI.
+FIM.
+
+--------------- EXERCÍCIO 2 ------------------
+
+Procure a carta (caracter) de (desenho_carta);
+
+ENQUANTO houver cartas na sua mão, REPITA:
+    - Separe a carta do topo do baralho;
+    - Olhar no lado que tenha letras e numeros;
+     - SE houver na carta o (caracter) e (desenho_carta);
+        Responda ENCONTREI.
+        - FIM.
+    -SENÃO:
+        - Jogue a carta fora;
+
+Reponda NÃO ENCONTREI.
+FIM.
+
+---------------- CORREÇÃO --------------------
+
+PERGUNTAR E LEMBRAR qual é o NÚMERO/LETRA da carta;
+PERGUNTAR E LEMBRAR qual é o NAIPE da carta;
+
+MAPA DE NAIPES:
+ - COPAS: Coração vermelho
+ - ESPADAS: Coração preto de cabeça para baixo com um triangulo embaixo
+ - OUROS: Losango
+ - PAUS: Trevo preto com um trinagulo embaixo
+
+ENQUANTO houver cartas na sua mão, REPITA:
+    - Separe a carta do topo do baralho;
+    - Olhar no lado que tenha letras e numeros;
+     - SE houver na carta o NÚMERO/LETRA e DESENHO EXPLICADO NO MAPA DE NAIPES DO NAIPE PEDIDO;
+        Responda ENCONTREI.
+        - FIM.
+    -SENÃO:
+        - Jogue a carta fora;
+
+Reponda NÃO ENCONTREI.
+FIM.
+
+// TRATAMENTO DE ENTRADA no começo e internamente
+// MAPA a vale a pena quando é pouco dado
